@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Low cost. High quality. Zero worries — QT VPS</title>
+  <meta name="description" content="Low cost VPS, high quality, zero worries. Thuê VPS 28C/56T, 36C/72T cho emulator, game và workloads nặng.">
+  <meta name="keywords" content="VPS giá rẻ, VPS mạnh, thuê VPS, VPS emulator, VPS 28C 56T, VPS 36C 72T, VPS gaming, QT VPS">
+  <style>
+    :root{
+      --bg:#07060a;
+      --card:#0f0f14;
+      --accent:#b47bff;
+      --muted:#bfb8d9;
+      --glass:rgba(255,255,255,0.03);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, Arial; background:linear-gradient(180deg,#05040a 0%, #0b0710 100%);color:#e9e5ff;}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,#8f63ff,#ff6ec7);box-shadow:0 6px 20px rgba(180,123,255,0.14);display:flex;align-items:center;justify-content:center;font-weight:700;color:#09070b}
+    .brand h1{font-size:18px;margin:0}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+
+    .hero{padding:64px 0;display:grid;grid-template-columns:1fr 420px;gap:36px;align-items:center}
+    .hero-left h2{font-size:40px;margin:0 0 12px;color:var(--accent);letter-spacing:0.2px}
+    .hero-left p{margin:0 0 20px;color:#d8d0f8}
+    .cta{display:flex;gap:12px;margin-top:18px}
+    .btn{padding:12px 18px;border-radius:10px;background:linear-gradient(90deg,#b47bff,#ff86d2);border:none;color:#09070b;font-weight:700;text-decoration:none}
+    .btn.alt{background:transparent;border:1px solid rgba(180,123,255,0.12);color:var(--muted)}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,0.03)}
+    .specs{display:flex;gap:16px;flex-direction:column}
+    .plan{display:flex;align-items:center;gap:12px;padding:14px;border-radius:10px;background:var(--glass);border:1px solid rgba(180,123,255,0.05)}
+    .plan .meta{flex:1}
+    .plan h3{margin:0;color:#f5eaff}
+    .plan p{margin:6px 0 0;color:var(--muted);font-size:14px}
+    .price{font-weight:800;color:var(--accent)}
+
+    section h3{color:var(--accent);margin:0 0 12px}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .feature{padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));border:1px solid rgba(255,255,255,0.02)}
+
+    .pricing-grid{display:flex;gap:14px;flex-wrap:wrap}
+    .pricing{flex:1;min-width:240px}
+    .pricing .price-big{font-size:22px;margin:0 0 8px;color:var(--accent)}
+
+    footer{padding:28px 0;text-align:center;color:var(--muted)}
+
+    .floating-dm{
+      position:fixed;bottom:24px;right:24px;
+      background:linear-gradient(90deg,#b47bff,#ff86d2);
+      padding:14px 22px;border-radius:14px;
+      color:#09070b;font-weight:700;text-decoration:none;
+      box-shadow:0 6px 18px rgba(0,0,0,0.4);
+      z-index:999;
+      transition:0.2s;
+    }
+    .floating-dm:hover{
+      transform:scale(1.07);
+      box-shadow:0 0 18px rgba(180,123,255,0.6);
+    }
+
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.features{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:520px){.features{grid-template-columns:1fr} nav a{display:none} .container{padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">QT</div>
+        <div>
+          <h1>QT VPS</h1>
+          <div style="font-size:12px;color:var(--muted);margin-top:4px">Premium VPS for emulators & gaming</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#plans">Plans</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-left">
+          <h2>VPS mạnh cho giả lập, chơi game và workloads nặng</h2>
+          <p>CPU nhiều core, RAM lớn, SSD tốc độ cao và GPU rời — tối ưu cho LDPlayer, Nox, BlueStacks. Hỗ trợ nhanh qua Discord.</p>
+          <div class="cta">
+            <a class="btn" href="https://discord.com/channels/@me/1404310324777062411" target="_blank">Liên hệ qua Discord</a>
+            <a class="btn alt" href="#plans">Xem gói</a>
+          </div>
+          <div style="margin-top:22px;display:flex;gap:10px;align-items:center">
+            <div style="font-size:13px;color:var(--muted)">Giá bắt đầu từ</div>
+            <div style="font-weight:800;font-size:18px;color:var(--accent)">$17 / tuần</div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h3 style="margin-top:0">Hot Plans</h3>
+            <div class="specs" id="plans">
+              <div class="plan">
+                <div class="meta">
+                  <h3>28C / 56T — Gaming</h3>
+                  <p>128GB RAM • 512GB SSD • GTX 1070/1080</p>
+                </div>
+                <div style="text-align:right">
+                  <div class="price">$17 / week • $65 / month</div>
+                  <div style="font-size:12px;color:var(--muted)">420K / tuần • 1.5tr / tháng (VN)</div>
+                </div>
+              </div>
+
+              <div class="plan">
+                <div class="meta">
+                  <h3>36C / 72T — Pro</h3>
+                  <p>128GB RAM • 512GB SSD • GTX 1070/1080</p>
+                </div>
+                <div style="text-align:right">
+                  <div class="price">$21 / week • $73 / month</div>
+                  <div style="font-size:12px;color:var(--muted)">470K / tuần • 1.6tr / tháng (VN)</div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top:12px;text-align:center">
+              <a class="btn" href="https://discord.com/channels/@me/1404310324777062411" target="_blank">Thuê ngay (Discord)</a>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section style="margin-top:26px">
+        <h3>Vì sao chọn QT VPS</h3>
+        <div class="features" style="margin-top:12px">
+          <div class="feature">
+            <strong>Hiệu năng cao</strong>
+            <div style="font-size:13px;color:var(--muted);margin-top:8px">CPU nhiều core, RAM lớn, GPU rời phù hợp cho giả lập multi-instance.</div>
+          </div>
+          <div class="feature">
+            <strong>Ổn định & uptime</strong>
+            <div style="font-size:13px;color:var(--muted);margin-top:8px">Hệ thống giám sát, khuyến nghị khởi động lại có lịch để ổn định.</div>
+          </div>
+          <div class="feature">
+            <strong>Hỗ trợ nhanh</strong>
+            <div style="font-size:13px;color:var(--muted);margin-top:8px">Liên hệ qua Discord — phản hồi nhanh, hỗ trợ cấu hình emulator.</div>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:26px" id="pricing">
+        <h3>Bảng giá</h3>
+        <div class="pricing-grid" style="margin-top:12px">
+          <div class="card pricing">
+            <div class="price-big">Gói Quốc tế</div>
+            <p class="price-big">36C/72T • 128GB • 512GB SSD • GTX 1070/1080</p>
+            <div style="margin-top:8px">$21 / tuần • $73 / tháng</div>
+          </div>
+
+          <div class="card pricing">
+            <div class="price-big">Gói Quốc tế</div>
+            <p class="price-big">28C/56T • 128GB • 512GB SSD • GTX 1070/1080</p>
+            <div style="margin-top:8px">$17 / tuần • $65 / tháng</div>
+          </div>
+
+          <div class="card pricing">
+            <div class="price-big">Gói VN</div>
+            <p class="price-big">36C/72T — 470K / tuần • 1.6tr / tháng</p>
+          </div>
+
+          <div class="card pricing">
+            <div class="price-big">Gói VN</div>
+            <p class="price-big">28C/56T — 420K / tuần • 1.5tr / tháng</p>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:26px" id="contact">
+        <h3>Liên hệ</h3>
+        <div class="card" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+          <div>
+            <div style="font-weight:700">Discord</div>
+            <div style="font-size:13px;color:var(--muted);margin-top:6px">Nhấn để mở kênh liên hệ và gửi yêu cầu thuê VPS:</div>
+            <div style="margin-top:10px">
+              <a class="btn" href="https://discord.com/channels/@me/1404310324777062411" target="_blank">Mở Discord</a>
+            </div>
+          </div>
+
+          <div style="flex:1">
+            <div style="font-size:13px;color:var(--muted)">Hoặc sao chép thông tin thanh toán có sẵn trong trang:</div>
+            <pre style="background:rgba(255,255,255,0.02);padding:10px;border-radius:8px;margin-top:8px;color:var(--muted);font-size:13px">MB Bank: 0981746247 — BUI QUANG THUAN
+USDT (TRC20): TXe1UWCgghUg3i1sXbStfw8nCJMEZJaLEM
+USDT (BEP20): 0x6b40c4908125b024537324ea0328a83f2b8fe9cb</pre>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      © 2025 QT VPS — Built for performance. — <span style="color:var(--muted)">Made by plong20072006-sys</span>
+    </footer>
+  </div>
+
+  <a class="floating-dm" href="https://discord.com/channels/@me/1404310324777062411" target="_blank">Thuê ngay</a>
+</body>
+</html>
