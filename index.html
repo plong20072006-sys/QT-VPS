@@ -8,9 +8,7 @@
   <meta name="keywords" content="VPS giá rẻ, VPS mạnh, thuê VPS, VPS emulator, VPS 28C 56T, VPS 36C 72T, VPS gaming, QT VPS">
 
   <style>
-    :root {
-      --bg:#07060a; --card:#0f0f14; --accent:#b47bff; --muted:#bfb8d9;
-    }
+    :root { --bg:#07060a; --card:#0f0f14; --accent:#b47bff; --muted:#bfb8d9; }
     *{box-sizing:border-box;}
     body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#05040a,#0b0710);color:#e9e5ff;}
     .container{max-width:1100px;margin:auto;padding:28px;}
@@ -37,7 +35,7 @@
     <header>
       <div class="logo">QT VPS</div>
       <nav>
-        <a href="#plans">Plans</a>
+        <a href="#plans" class="scroll-link">Plans</a>
         <a href="#pricing">Pricing</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -48,7 +46,7 @@
         <h1>VPS mạnh cho giả lập và gaming</h1>
         <p>CPU nhiều core, RAM lớn, SSD tốc độ cao, GPU rời — tối ưu cho LDPlayer, Nox, BlueStacks. Hỗ trợ nhanh qua Discord.</p>
         <a class="btn" href="https://discord.com/channels/@me/1404310324777062411" target="_blank">Thuê ngay (Discord)</a>
-        <a class="btn" href="#plans">Xem gói</a>
+        <a class="btn scroll-link" href="#plans">Xem gói</a>
 
         <div class="social-icons">
           <a href="https://www.tiktok.com/@yourusername" target="_blank">
@@ -83,5 +81,17 @@
       © 2025 QT VPS — Made by plong20072006-sys
     </footer>
   </div>
+
+  <!-- Scroll mượt & URL ngắn gọn -->
+  <script>
+    document.querySelectorAll('.scroll-link').forEach(link=>{
+      link.addEventListener('click', e=>{
+        e.preventDefault();
+        const targetId = link.getAttribute('href').replace('#','');
+        document.getElementById(targetId).scrollIntoView({behavior:'smooth'});
+        history.pushState(null,null,'/QT-VPS/');
+      });
+    });
+  </script>
 </body>
 </html>
